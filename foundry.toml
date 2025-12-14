@@ -1,0 +1,11 @@
+[profile.default]
+src = "src"
+out = "out"
+libs = ["lib"]
+via-ir = true
+optimizer = true
+remappings = [
+    "@openzeppelin/=lib/openzeppelin/",
+    "@teleporter/=lib/teleporter/"
+]
+# See more config options https://github.com/foundry-rs/foundry/blob/master/crates/config/README.md#all-options
